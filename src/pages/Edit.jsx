@@ -28,7 +28,7 @@ const Edit = () => {
         params.id,
         input.createdDate.getTime(),
         input.emotionId,
-        input.emotionName
+        input.content
       );
     }
     nav("/", { replace: true });
